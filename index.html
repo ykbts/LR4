@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <title>Якобець К.Р. ІК-13, ЛР№4</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, веб-розробка, основи FE технологій">
+    <meta name="description" content="Мова гіпертекстової розмітки сайту HTML-5.">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Якобець Катерина Радівна</h2>
+    <p>Дата та місце народження: 27 травня 2004 року, Чернівці</p>
+    <p>Освіта: Ліцей №1 м.Чернівці; НТУУ "КПІ", м.Київ;</p>
+    <p>Хоббі:</p>
+    <ul>
+        <li>Танці</li>
+        <li>Музика</li>
+        <li onclick='Seven()' id="7">Фотографування</li>
+    </ul>
+    <p onclick='Eight()' class="eight">Улюблені фільми:</p>
+    <ol>
+        <li>"Круелла"</li>
+        <li>"Шахрайки"</li>
+        <li>"8 подруг Оушена"</li>
+    </ol>
+    <p>Буковина славиться своїми визначними пам’ятками, а що вже говорити про її головний культурний центр – Чернівці. У цьому місті чудово все: і архітектура, і парки, і загальна атмосфера. Чернівці — історична столиця Буковинського краю, місто відоме архітектурними ансамблями, одна з яких — пам'ятка архітектури «Резиденція митрополитів Буковини і Далмації» — включено до списку Світової спадщини ЮНЕСКО.Місто кілька разів посідало важливі місця у різноманітних рейтингах туристичної привабливості, комфортності проживання тощо. У наш час за містом закріпився неофіційний статус — «Пісенна столиця України».</p>
+    
+    <a href="https://blog.pokupon.ua/chernivtsi-shcho-tsikavoho-mozhna-podyvytysia-kudy-skhodyty-i-de-zupynytysia/#%D1%89%D0%BE%20%D0%BF%D0%BE%D0%B4%D0%B8%D0%B2%D0%B8%D1%82%D0%B8%D1%81%D1%8F%20%D0%B2%20%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%8F%D1%85" >
+        <img src="Chernivtsi.jpg" alt="Фото міста Чернівці">
+    </a>
+</br>
+    <button onclick="addImage()">Додати</button>
+    <button onclick="increaseImageSize()">Збільшити</button>
+    <button onclick="decreaseImageSize()">Зменшити</button>
+    <button onclick="deleteImage()">Видалити</button>
+    <div id="image-container"></div>
+</body>
+</html>
